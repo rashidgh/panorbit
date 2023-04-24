@@ -1,0 +1,110 @@
+.chatBox {
+  position: fixed;
+  margin-right: 50px;
+  bottom: -4em;
+  right: 20px;
+  width: 309px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: height 0.5s ease-in-out;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 57px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: blue;
+border-radius: 5px;
+}
+
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000000 transparent transparent transparent;
+}
+
+.rotateArrow {
+  transform: rotate(180deg);
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+margin-right: 130px;
+font-size:17px;
+}
+
+.title:hover{
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+
+.body {
+  padding: 5px;
+}
+
+.user {
+  margin-bottom: 5px;
+}
+
+.maximizedX {
+  width: 400px;
+  height: 100px;
+}
+
+.maximizedY {
+  height: 400px;
+}
+/* -------User List--------------- */
+.userList {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 50px;
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 20px 30px;
+  border: none;
+  border-radius:  0 0 20px 20px;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.userList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 8px;
+  align-items: center;
+}
+ul a{
+  text-decoration: none;
+  color: black;
+}
+#profilePic {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#profilePic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+#ChatIcon{
+margin-right: 10px;
+color: aliceblue;
+}
+

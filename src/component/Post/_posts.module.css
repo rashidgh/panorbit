@@ -1,0 +1,37 @@
+#header{
+    width: 90% ;
+    height: 10vh;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+border-bottom: 2px solid grey;
+margin-left: 15px;
+  
+}
+#header>h2>span>img{
+    width:2.5vw;
+    height:5vh;
+    border-radius: 50%;
+}
+#header>h1{
+    padding: 3vh;
+    font-weight: 700;
+    color: rgb(44, 44, 44);
+}
+#header>h2{
+    color: rgb(44, 44, 44);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 2.5vh;
+}
+#header>h2>span{
+    margin-right: 1.5vh;
+}
+
+#PostMessage{
+    color: rgb(165, 163, 163);
+font-size: 5em;
+margin-left: 350px;
+margin-top: 220px;
+}
